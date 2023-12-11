@@ -40,3 +40,6 @@ build/
 
 .idea/
 *.jar
+# src\main\java\org\perseo1326\Web Dispatch Interact.code-workspace
+External_Resources/
+Web Dispatch Interact.code-workspace
