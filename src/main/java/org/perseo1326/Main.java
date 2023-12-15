@@ -6,6 +6,7 @@ import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
 import com.gargoylesoftware.htmlunit.Page;
 import com.gargoylesoftware.htmlunit.html.HtmlElement;
+import org.jetbrains.annotations.NotNull;
 
 public class Main {
 
@@ -21,7 +22,7 @@ public class Main {
     }
 
     
-    private static Page loginProcess(HtmlElement htmlElement, String userId, String pass) throws IOException{
+    private static Page loginProcess(@NotNull HtmlElement htmlElement, String userId, String pass) throws IOException{
 
             HtmlElement loginForm = htmlElement.getOneHtmlElementByAttribute("form", "name", "bsUserForm");
 

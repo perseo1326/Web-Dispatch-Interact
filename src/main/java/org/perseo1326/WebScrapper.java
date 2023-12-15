@@ -2,15 +2,9 @@ package org.perseo1326;
 
 
 import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.html.DomNodeList;
-import com.gargoylesoftware.htmlunit.html.HtmlElement;
-import com.gargoylesoftware.htmlunit.html.HtmlForm;
-import com.gargoylesoftware.htmlunit.html.HtmlInput;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
-import com.gargoylesoftware.htmlunit.html.HtmlTextInput;
 
 import java.io.IOException;
-import java.util.List;
 
 public class WebScrapper {
 
@@ -57,11 +51,6 @@ public class WebScrapper {
     //     var x = htmlElement.getOneHtmlElementByAttribute("form", attributeName, attributeValue)(null);
     //     System.out.println(x);
     // }
-
-
-
-
-
 
     
     // public void extractInformation() throws IOException{
